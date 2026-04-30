@@ -31,7 +31,7 @@ export function SystemsSection() {
         <div className="systems-grid">
           {engineeringPractices.map((item, i) => (
             <article key={item.title} className="systems-card">
-              <FontAwesomeIcon icon={ICONS[i]} className="systems-card-icon" size="lg" />
+              <FontAwesomeIcon icon={ICONS[i]} className="systems-card-icon" size="xl" aria-hidden />
               <h3>{item.title}</h3>
               <p>{item.body}</p>
               <ul className="systems-keywords">
