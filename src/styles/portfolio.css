@@ -311,6 +311,118 @@ a {
   margin-top: 0.5rem;
 }
 
+/* ——— Production & scale (systems section) ——— */
+.systems-section {
+  padding: 5% 10% 4%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.systems-section > h1 {
+  margin-bottom: 0.35rem;
+}
+
+.systems-lead {
+  margin: 0 0 2.25rem;
+  max-width: 46rem;
+  line-height: 1.55;
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.systems-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.systems-card {
+  border-radius: 12px;
+  padding: 1.35rem 1.25rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.systems-card:hover {
+  border-color: rgba(196, 181, 253, 0.35);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.systems-card-icon {
+  color: #c4b5fd;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.systems-card h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.1rem;
+  color: inherit;
+}
+
+.systems-card p {
+  margin: 0 0 1rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  opacity: 0.88;
+}
+
+.systems-keywords {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.systems-keywords li {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.68rem;
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  background: rgba(80, 0, 202, 0.2);
+  border: 1px solid rgba(196, 181, 253, 0.25);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 992px) {
+  .systems-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .systems-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .systems-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.main-container.light-mode .systems-card {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.main-container.light-mode .systems-card p {
+  color: #374151;
+  opacity: 1;
+}
+
+.main-container.light-mode .systems-keywords li {
+  background: rgba(91, 33, 182, 0.08);
+  border-color: rgba(91, 33, 182, 0.2);
+  color: #1f2937;
+}
+
 @media (max-width: 768px) {
   .skills-container {
     padding-left: 5%;

@@ -4,6 +4,7 @@ import { faBars, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
 const NAV: [string, string][] = [
   ['Expertise', 'expertise'],
+  ['Scale', 'engineering'],
   ['History', 'history'],
   ['Projects', 'projects'],
   ['Contact', 'contact'],

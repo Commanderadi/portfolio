@@ -327,3 +327,49 @@ export const expertise: ExpertiseBlock[] = [
     ],
   },
 ];
+
+/** Practices that map to how top product-led and research companies ship software. */
+export interface EngineeringPractice {
+  title: string;
+  body: string;
+  keywords: string[];
+}
+
+export const engineeringPractices: EngineeringPractice[] = [
+  {
+    title: 'Reliability & observability',
+    body:
+      'Services designed for failure: meaningful logs, metrics, and trace-friendly boundaries; degraded modes instead of hard outages; clarity when something breaks.',
+    keywords: ['SLO thinking', 'Structured logging', 'Metrics & dashboards', 'On-call mindset'],
+  },
+  {
+    title: 'Security & trust',
+    body:
+      'Least-privilege access, sane secret handling, and OWASP-aware API and data design—especially with multi-tenant and customer data.',
+    keywords: ['AuthN / AuthZ', 'JWT & sessions', 'RLS / tenant isolation', 'Secrets hygiene'],
+  },
+  {
+    title: 'Testing & CI/CD',
+    body:
+      'Automated checks before merge and deploy: unit and integration coverage where it matters, pipelines that block bad releases.',
+    keywords: ['GitHub Actions', 'Regression safety', 'Test pyramid', 'Quality gates'],
+  },
+  {
+    title: 'Performance & data efficiency',
+    body:
+      'Measure before optimizing: SQL and indexing, caching layers, async jobs for heavy work—balanced with cost and simplicity.',
+    keywords: ['Query tuning', 'Redis / cache', 'Background jobs', 'Profiling'],
+  },
+  {
+    title: 'Distributed & async patterns',
+    body:
+      'Idempotent APIs, queues, backpressure, and honesty about consistency tradeoffs—so systems survive real traffic and retries.',
+    keywords: ['Message queues', 'Idempotency', 'Event-driven slices', 'CAP tradeoffs'],
+  },
+  {
+    title: 'Ownership & collaboration',
+    body:
+      'Readable diffs, design notes, and crisp tradeoff communication—how strong teams align before and after code ships.',
+    keywords: ['Code review', 'Design docs', 'Stakeholder clarity', 'Mentorship'],
+  },
+];

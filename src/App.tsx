@@ -3,6 +3,7 @@ import FadeIn from './components/FadeIn';
 import { Navigation } from './components/Navigation';
 import { MainHero } from './components/MainHero';
 import { ExpertiseSection } from './components/ExpertiseSection';
+import { SystemsSection } from './components/SystemsSection';
 import { TimelineSection } from './components/TimelineSection';
 import { ProjectsSection } from './components/ProjectsSection';
 import { ContactSection } from './components/ContactSection';
@@ -26,6 +27,7 @@ function App() {
       <FadeIn transitionDuration={700}>
         <MainHero />
         <ExpertiseSection />
+        <SystemsSection />
         <TimelineSection />
         <ProjectsSection />
         <ContactSection />
