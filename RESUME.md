@@ -89,7 +89,7 @@ Time series on **50K+** transactions; compared Prophet, ARIMA, LSTM (**~92%** ac
 ## Certifications
 
 - Machine Learning Applications — Altair  
-- AI/ML Foundations — cloud-provider academy track  
+- AI/ML Foundations — AWS Academy  
 - Data Science & Analytics Virtual Internship — Future Interns  
 - System Administration — Red Hat  
 - App Development Internship — Ready Coder  
