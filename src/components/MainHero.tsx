@@ -1,0 +1,38 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+const GITHUB = 'https://github.com/Commanderadi';
+const LINKEDIN = 'https://www.linkedin.com/in/aditya-singh-89b884189/';
+const AVATAR = 'https://avatars.githubusercontent.com/u/92989828?v=4';
+
+export function MainHero() {
+  return (
+    <div className="yuji-container">
+      <div className="yuji-about">
+        <div className="image-wrap">
+          <img src={AVATAR} width={150} height={150} alt="Aditya Singh" />
+        </div>
+        <div className="yuji-content">
+          <div className="social-top">
+            <a href={GITHUB} target="_blank" rel="noreferrer" aria-label="GitHub">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href={LINKEDIN} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </div>
+          <h1>Aditya Singh</h1>
+          <p>Analytics &amp; Full-Stack Engineer</p>
+          <div className="social-mobile">
+            <a href={GITHUB} target="_blank" rel="noreferrer" aria-label="GitHub">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href={LINKEDIN} target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
