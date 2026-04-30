@@ -11,8 +11,9 @@ export function ExpertiseSection() {
       <div className="skills-container">
         <h1>Expertise</h1>
         <p className="skills-lead">
-          Analytics engineering, production-style full-stack delivery, and applied AI—grounded in
-          shipping internal platforms, BI, and automation for real operators and leadership.
+          Analytics engineering, production full-stack delivery, and applied AI—including{' '}
+          <strong>GenAI</strong>, <strong>agent-style</strong> workflows (tool use, orchestration,
+          RAG)—grounded in shipping internal platforms, BI, and automation for real teams.
         </p>
         <div className="skills-grid">
           {expertise.map((block, i) => (

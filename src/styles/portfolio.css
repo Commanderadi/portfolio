@@ -223,6 +223,20 @@ a {
   margin: 0;
 }
 
+.yuji-about .yuji-content .hero-tagline {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.yuji-about .yuji-content .hero-subtagline {
+  font-size: 1.05em;
+  font-weight: 400;
+  margin-top: 0.75rem;
+  max-width: 36rem;
+  line-height: 1.45;
+  opacity: 0.88;
+}
+
 .yuji-about .yuji-content h1 {
   font-size: 5em;
   margin: 0;
@@ -257,9 +271,8 @@ a {
     display: flex;
   }
 
-  .yuji-about .yuji-content {
-    width: 90%;
-    padding-bottom: 5%;
+  .yuji-about .yuji-content .hero-subtagline {
+    font-size: 0.95em;
   }
 }
 

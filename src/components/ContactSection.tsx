@@ -28,7 +28,9 @@ export function ContactSection() {
         <div className="contact_wrapper">
           <h1>Contact Me</h1>
           <p>
-            Got a project waiting to be realized? Let&apos;s collaborate and make it happen!
+            Open to analytics, full-stack, and{' '}
+            <strong>AI / ML, GenAI &amp; agentic</strong> projects—let&apos;s build something
+            useful.
           </p>
           <form className="contact-form" onSubmit={send} noValidate>
             <div className="form-row">

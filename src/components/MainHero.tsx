@@ -22,7 +22,11 @@ export function MainHero() {
             </a>
           </div>
           <h1>Aditya Singh</h1>
-          <p>Analytics &amp; Full-Stack Engineer</p>
+          <p className="hero-tagline">Analytics &amp; Full-Stack Engineer</p>
+          <p className="hero-subtagline">
+            AI / ML · Gen AI · Agentic AI — research pipelines, LLM tools, RAG &amp; production-facing
+            intelligence.
+          </p>
           <div className="social-mobile">
             <a href={GITHUB} target="_blank" rel="noreferrer" aria-label="GitHub">
               <FontAwesomeIcon icon={faGithub} />
