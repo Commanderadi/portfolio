@@ -172,9 +172,9 @@ export const career: CareerItem[] = [
     location: 'Mumbai, Maharashtra, India · On-site',
     title: 'Analytics Engineer (Data & Automation)',
     description:
-      'Design and develop internal data platforms and automation that turn operational and sales data into structured intelligence. Build scalable data pipelines, analytics frameworks, and operational tools that improve reporting accuracy, visibility, and efficiency. Partner with management and ops to replace manual Excel-heavy workflows with centralized data infrastructure and analytics dashboards. Ship LLM-backed features on the Intelligence Portal using OpenAI and Anthropic (Claude) APIs—structured outputs, retrieval / RAG patterns, tool-style steps, and evaluation-minded review for sensitive signals. Apply production-style API design: contracts, retries, idempotent async handlers, secrets hygiene, and structured logging. Key deliverables include the Intelligence Portal and FOAP app & portal ecosystem.',
+      'Design and develop internal data platforms and automation that turn operational and sales data into structured intelligence. Build scalable data pipelines, analytics frameworks, and operational tools that improve reporting accuracy, visibility, and efficiency. Partner with management and ops to replace manual Excel-heavy workflows with centralized data infrastructure and analytics dashboards. Ship LLM-backed features on the Intelligence Portal using hosted, multi-provider model APIs—structured outputs, retrieval / RAG patterns, tool-style steps, and evaluation-minded review for sensitive signals. Apply production-style API design: contracts, retries, idempotent async handlers, secrets hygiene, and structured logging. Key deliverables include the Intelligence Portal and FOAP app & portal ecosystem.',
     stack:
-      'PostgreSQL · Data pipelines · Dashboards · FOAP & Intelligence Portal · NestJS · React · Flutter · FastAPI · Redis · AWS S3 · OpenAI API · Anthropic API · Docker · GitHub Actions · TypeScript · RAG · LLM evaluation patterns',
+      'PostgreSQL · Data pipelines · Dashboards · FOAP & Intelligence Portal · NestJS · React · Flutter · FastAPI · Redis · Object storage · Hosted LLM APIs · Docker · CI/CD · TypeScript · RAG · LLM evaluation patterns',
   },
   {
     period: 'Jul 2025 — Dec 2025',
@@ -194,8 +194,8 @@ export const career: CareerItem[] = [
     location: 'Remote',
     title: 'Data Science & Analytics Intern',
     description:
-      'Built Power BI dashboards with 15+ KPIs; integrated GPT-4 for automated reporting (~60% faster reporting); developed Python web scraping pipelines (~40% time savings on data collection).',
-    stack: 'Power BI · Python · GPT-4 · Web scraping · Business intelligence · DAX',
+      'Built Power BI dashboards with 15+ KPIs; integrated hosted generative / LLM APIs for automated reporting (~60% faster reporting); developed Python web scraping pipelines (~40% time savings on data collection).',
+    stack: 'Power BI · Python · Generative APIs · Web scraping · Business intelligence · DAX',
   },
   {
     period: 'Aug 2025 — Sep 2025',
@@ -299,8 +299,8 @@ export const expertise: ExpertiseBlock[] = [
       'Socket.IO',
       'Supabase',
       'Docker',
-      'AWS S3',
-      'GitHub Actions',
+      'Object storage',
+      'CI/CD',
     ],
   },
   {
@@ -309,13 +309,12 @@ export const expertise: ExpertiseBlock[] = [
       'Classical ML and deep learning with clear metrics; Generative AI for reporting, documents, and analytics copilots; agent-inspired patterns—multi-step workflows, tool-calling LLMs, retrieval (RAG), and guardrailed automation. I prototype in Gradio/Streamlit and design flows that can attach to real APIs and data stores—not demo-only chat.',
     tech: [
       'Python',
-      'OpenAI API',
-      'GPT-4',
-      'LangChain',
+      'Hosted LLM APIs',
+      'LLM orchestration',
       'Agentic workflows',
       'Tool-calling LLMs',
       'RAG',
-      'Hugging Face',
+      'Transformers',
       'T5 / summarization',
       'TensorFlow',
       'scikit-learn',
@@ -328,7 +327,7 @@ export const expertise: ExpertiseBlock[] = [
   },
 ];
 
-/** Practices that map to how top product-led and research companies ship software. */
+/** Practices aligned with mature product-engineering teams. */
 export interface EngineeringPractice {
   title: string;
   body: string;
