@@ -19,7 +19,7 @@ _Building internal data systems, BI, and web/mobile tools that replace manual wo
 
 ### Now
 
-- **Analytics Engineer (Data & Automation)** @ **ELETTRO** — data platforms, PostgreSQL, analytics frameworks, **Intelligence Portal** & **FOAP** (internal portals / field + ops tooling).
+- **Analytics Engineer (Data & Automation)** @ **ELETTRO** — data platforms, PostgreSQL, analytics frameworks, **Intelligence Portal** & **FOAP**; **OpenAI** & **Anthropic (Claude)** APIs for structured LLM workflows, RAG-style retrieval, and production-minded APIs (logging, retries, secrets).
 - Stack in production: **Python**, **SQL/PostgreSQL**, **Power BI**, **NestJS**, **React/Next.js**, **Flutter**, **FastAPI**, **Redis**, **AWS S3**, automation & reporting.
 
 ---

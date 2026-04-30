@@ -172,9 +172,9 @@ export const career: CareerItem[] = [
     location: 'Mumbai, Maharashtra, India · On-site',
     title: 'Analytics Engineer (Data & Automation)',
     description:
-      'Design and develop internal data platforms and automation that turn operational and sales data into structured intelligence. Build scalable data pipelines, analytics frameworks, and operational tools that improve reporting accuracy, visibility, and efficiency. Partner with management and ops to replace manual Excel-heavy workflows with centralized data infrastructure and analytics dashboards. Key deliverables include the Intelligence Portal and FOAP app & portal ecosystem.',
+      'Design and develop internal data platforms and automation that turn operational and sales data into structured intelligence. Build scalable data pipelines, analytics frameworks, and operational tools that improve reporting accuracy, visibility, and efficiency. Partner with management and ops to replace manual Excel-heavy workflows with centralized data infrastructure and analytics dashboards. Ship LLM-backed features on the Intelligence Portal using OpenAI and Anthropic (Claude) APIs—structured outputs, retrieval / RAG patterns, tool-style steps, and evaluation-minded review for sensitive signals. Apply production-style API design: contracts, retries, idempotent async handlers, secrets hygiene, and structured logging. Key deliverables include the Intelligence Portal and FOAP app & portal ecosystem.',
     stack:
-      'System architecture · PostgreSQL · Data pipelines · Dashboards · FOAP & Intelligence Portal · NestJS · React · Flutter · FastAPI · Redis · AWS S3 · Automation · Analytics frameworks',
+      'PostgreSQL · Data pipelines · Dashboards · FOAP & Intelligence Portal · NestJS · React · Flutter · FastAPI · Redis · AWS S3 · OpenAI API · Anthropic API · Docker · GitHub Actions · TypeScript · RAG · LLM evaluation patterns',
   },
   {
     period: 'Jul 2025 — Dec 2025',

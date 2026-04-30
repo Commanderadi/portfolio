@@ -7,7 +7,7 @@
 
 ## Summary
 
-Analytics and full-stack engineer shipping **internal data platforms, BI, and production web/mobile tools**—PostgreSQL-first pipelines, NestJS/React/Next.js services, Flutter field apps, and applied **ML & GenAI** (reporting automation, RAG-style workflows, dashboards). Comfortable owning features from schema and API design through deployment (Redis, AWS S3, CI/CD).
+Analytics and full-stack engineer shipping **internal data platforms, BI, and production web/mobile tools**—PostgreSQL-first pipelines, NestJS/React/Next.js services, Flutter field apps, and applied **ML & GenAI** with **OpenAI** and **Anthropic** APIs (structured outputs, retrieval, tool-style orchestration). Comfortable owning features from schema and API design through deployment (Redis, AWS S3, CI/CD) with **production-minded** reliability patterns.
 
 ---
 
@@ -23,7 +23,9 @@ Noida, India · **June 2021 – June 2025**
 **ELETTRO** — *Analytics Engineer (Data & Automation)* · Mumbai, India · Full-time · **Jan 2026 – Present**  
 - Build internal **data platforms, analytics frameworks, and automation** that replace Excel-heavy workflows with centralized reporting and operational visibility.  
 - Deliver **Intelligence Portal** and **FOAP** ecosystem: internal portals and field tooling aligned with management and ops.  
-- Stack: **PostgreSQL**, **Python**, pipelines & dashboards, **NestJS**, **React**, **Flutter**, **FastAPI**, **Redis**, **AWS S3**.
+- Ship **LLM-backed intelligence** with **OpenAI** and **Anthropic (Claude)** APIs—**structured outputs**, prompt/version hygiene, **retrieval (RAG)** and tool-style steps where appropriate; pair model outputs with **evaluation** and human review for high-stakes signals.  
+- Apply **large-product-style** backend habits: clear **API contracts**, timeouts/retries and **idempotent** handlers for async work, **secrets** management, and **structured logging** so pipelines and AI features are debuggable in production.  
+- Stack: **PostgreSQL**, **Python**, pipelines & dashboards, **NestJS**, **React**, **Flutter**, **FastAPI**, **Redis**, **AWS S3**, **TypeScript**, **Docker** / **GitHub Actions** for delivery.
 
 **Key's Concept** — *Analyst & Applied AI Engineer* · Mumbai Metropolitan Region · Part-time · **Jul 2025 – Dec 2025**  
 - Analyzed financial and tax-adjacent data (portfolios, ITR context, insurance) for **50+ clients**; surfaced optimization and planning insights.  
@@ -56,9 +58,10 @@ Noida, India · **June 2021 – June 2025**
 - **Backend & APIs:** **NestJS**, **FastAPI**, Node.js, Express, **REST**, **WebSockets** (Socket.IO)  
 - **Frontend & mobile:** React, **Next.js**, Flutter, Tailwind, Chart.js  
 - **ML / DL / NLP:** scikit-learn, XGBoost, TensorFlow, **Hugging Face**, **RAG**, LangChain / agent-style orchestration, spaCy, NLTK, **CatBoost**, SHAP, OpenCV, classical & YOLO-style CV  
-- **GenAI & tooling:** GPT-4 / OpenAI API, Gradio, Streamlit, prompt and retrieval workflows  
+- **GenAI & LLM platforms:** **OpenAI API** (GPT-4 class models, structured outputs, function/tool calling), **Anthropic API** (Claude—messages, streaming, tool use), **LangChain**-style orchestration, **RAG**, prompt templates and eval hooks  
+- **Tooling:** Gradio, Streamlit, Jupyter for prototyping; **Postman** / OpenAPI-style API testing  
 - **Cloud & DevOps:** **Docker**, **GitHub Actions**, AWS (S3, Lambda, Redshift, Glue, QuickSight, SageMaker exposure), Netlify, Render, Terraform (familiarity)  
-- **Practices:** Multi-tenant / **RLS** patterns, caching (**Redis**), auth (JWT, sessions), structured logging and metrics-minded delivery
+- **Practices (MAANG-relevant bar):** Multi-tenant / **RLS** patterns, caching (**Redis**), auth (**JWT**, sessions), **least-privilege** access, **observability** (structured logs; dashboards and KPIs for pipelines), API **rate limits** / backpressure awareness, code review–friendly **design tradeoffs**
 
 ---
 
