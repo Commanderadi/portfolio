@@ -45,10 +45,10 @@
 
 | Project | Highlights | Stack |
 | :--- | :--- | :--- |
-| **[FOAP](https://github.com/Commanderadi)** | Production 3-tier SaaS for field sales. Incentive engines & GPS verification. | NestJS · Flutter · Redis · Socket.IO |
-| **[ELETTRO Intelligence](https://elettrointelligence.streamlit.app/)** | Sales intelligence platform processing **1.3M+** records with AI risk signals. | Next.js · FastAPI · Supabase |
+| **FOAP** *(private repo)* | 3-tier SaaS for field sales ops. Real-time GPS tracking, offline clock-in/out, live admin map. | NestJS · Flutter · Redis · Socket.IO |
+| **[ELETTRO Intelligence](https://elettrointelligence.streamlit.app/)** | Sales intelligence platform for a manufacturer — GST analytics, churn prediction, AI chatbot. **26K+** records, ₹29.65 Cr tracked. | Next.js · FastAPI · Supabase |
 | **[Autonomous Research Agent](https://github.com/Commanderadi/autonomous_research_agent)** | Multi-step NLP pipeline: NER → T5 Summarization → Gradio UI. | Python · spaCy · Transformers |
-| **[QuantumTrade Pro](https://github.com/Commanderadi/quantumtrade-pro) ** | Global market intelligence with real-time API integrations. | React · Node · WebSockets |
+| **[QuantumTrade Pro](https://github.com/Commanderadi/quantumtrade-pro)** | Global market intelligence with real-time API integrations. | React · Node · WebSockets |
 
 ---
 

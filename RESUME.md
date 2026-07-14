@@ -68,10 +68,10 @@ Noida, India · **June 2021 – June 2025**
 ## Selected projects
 
 **FOAP — Field Officer Platform** · *NestJS, React, Flutter, PostgreSQL, Redis, object storage, Socket.IO*  
-Production **3-tier SaaS** for field sales: incentives, payroll admin, **offline-first** mobile, GPS via **WebSockets** & Redis, **object-storage–backed** verification; **50+** daily field users.
+**3-tier SaaS** for field sales ops: real-time GPS tracking, **offline-first** mobile with odometer photo OCR, visit & quotation management, live admin map. Web dashboard live; Android app in closed testing on Google Play.
 
 **ELETTRO Intelligence** · *Next.js, FastAPI, Supabase, PostgreSQL, Leaflet*  
-Multi-tenant **sales intelligence**: **1.35M+** rows, maps, PDF reports, AI-assisted risk signals; **RLS** / tenant-safe access.
+**Sales intelligence platform** built for an Indian manufacturer: GST-aware analytics, customer segmentation, churn prediction, AI chatbot, PDF reports. **26K+** real sales records, ₹29.65 Cr revenue tracked.
 
 **Autonomous Research Agent** · *Python, LLM orchestration, transformer models, Gradio*  
 RAG-style research assistant: scrape → **NER** (spaCy) → summarization → **Gradio** UI; multi-step / agentic workflows; **500+** articles/week scale in internal testing.

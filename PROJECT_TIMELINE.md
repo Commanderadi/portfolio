@@ -3,10 +3,12 @@
 This document tracks the major milestones and development phases of the Portfolio project.
 
 ## 2026
-### Q2 (Current)
+### Q3 (Current)
 - [ ] Implement "Feature Branch" workflow for all updates.
-- [ ] Add dynamic experience timeline component.
 - [ ] Refactor `data.ts` for better modularity.
+
+### Q2
+- [x] Add dynamic experience timeline component (`TimelineSection.tsx`, `react-vertical-timeline-component`).
 
 ### Q1
 - [x] Initial release of the "Cyber-HUD" theme.

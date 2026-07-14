@@ -63,19 +63,30 @@ export function ProjectsSection() {
       <div className="projects-grid">
         {projects.map((project) => (
           <article key={project.title} className="project-card">
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noreferrer"
-              className="project-thumb-link"
-            >
-              <ProjectThumb title={project.title} category={project.category} />
-            </a>
-            <div className="project-card-body">
-              <span className="project-meta-chip">{categoryLabel[project.category]}</span>
-              <a href={project.link} target="_blank" rel="noreferrer" className="project-title-link">
-                <h2>{project.title}</h2>
+            {project.link ? (
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+                className="project-thumb-link"
+              >
+                <ProjectThumb title={project.title} category={project.category} />
               </a>
+            ) : (
+              <ProjectThumb title={project.title} category={project.category} />
+            )}
+            <div className="project-card-body">
+              <span className="project-meta-chip">
+                {categoryLabel[project.category]}
+                {!project.link && ' · Private repo'}
+              </span>
+              {project.link ? (
+                <a href={project.link} target="_blank" rel="noreferrer" className="project-title-link">
+                  <h2>{project.title}</h2>
+                </a>
+              ) : (
+                <h2>{project.title}</h2>
+              )}
               <p>{project.description}</p>
               <ul className="project-tag-row" aria-label="Technologies">
                 {project.tags.slice(0, 5).map((tag) => (
