@@ -10,31 +10,32 @@ export interface Project {
   description: string;
   tags: string[];
   category: ProjectCategory;
-  link: string;
+  /** null for projects with no public repo (e.g. private/proprietary work) */
+  link: string | null;
 }
 
 export const projects: Project[] = [
   {
     title: 'FOAP — Field Officer Platform',
     description:
-      'Production 3-tier SaaS (NestJS + React + Flutter) for field sales: incentive engine, payroll admin, offline sync, GPS via WebSockets & Redis, S3 verification. 50+ daily field users.',
+      '3-tier SaaS (NestJS + React + Flutter) for field sales ops: real-time GPS tracking, offline-first clock-in/out with odometer photo OCR, visit & quotation management, live admin map, distributor portal. Web dashboard live; Android app in closed testing on Google Play.',
     tags: [
       'NestJS',
       'React',
       'Flutter',
       'PostgreSQL',
       'Redis',
-      'AWS S3',
+      'Cloudflare R2',
       'Socket.IO',
       'TypeORM',
     ],
     category: 'production',
-    link: 'https://github.com/Commanderadi',
+    link: null,
   },
   {
     title: 'ELETTRO Intelligence',
     description:
-      'Multi-tenant sales intelligence (Next.js + FastAPI + Supabase): RLS, AI-assisted risk signals, Leaflet maps, PDF reports. 1.35M+ data points processed.',
+      'Sales intelligence platform (Next.js + FastAPI + Supabase) built for an Indian manufacturer: GST-aware analytics, customer segmentation, churn prediction, AI chatbot, PDF reports. 26K+ real sales records, ₹29.65 Cr revenue tracked.',
     tags: ['Next.js', 'FastAPI', 'Supabase', 'PostgreSQL', 'Leaflet', 'AI/ML'],
     category: 'production',
     link: 'https://elettrointelligence.streamlit.app/',
