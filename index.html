@@ -4,14 +4,73 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0d1116" />
     <meta
       name="description"
       content="Aditya Singh — Analytics & Full-Stack Engineer; AI/ML, GenAI & agentic AI. Production systems: reliability, security, CI/CD, distributed patterns. ELETTRO, NestJS, React, Flutter, FastAPI."
     />
+    <link rel="canonical" href="https://commanderportfolio.netlify.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://commanderportfolio.netlify.app/" />
+    <meta property="og:title" content="Aditya Singh | Analytics, Full-Stack & AI Engineer" />
+    <meta
+      property="og:description"
+      content="Analytics & Full-Stack Engineer building internal data platforms, BI, and production web/mobile tools — PostgreSQL, NestJS/React/Next.js, Flutter, and applied GenAI."
+    />
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/92989828?v=4" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Aditya Singh | Analytics, Full-Stack & AI Engineer" />
+    <meta
+      name="twitter:description"
+      content="Analytics & Full-Stack Engineer building internal data platforms, BI, and production web/mobile tools — PostgreSQL, NestJS/React/Next.js, Flutter, and applied GenAI."
+    />
+    <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/92989828?v=4" />
+
+    <!-- Fonts (preconnect + async-friendly link, replaces render-blocking @import in CSS) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Aditya Singh | Analytics, Full-Stack & AI Engineer</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Aditya Singh",
+        "url": "https://commanderportfolio.netlify.app/",
+        "jobTitle": "Analytics Engineer (Data & Automation)",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "ELETTRO"
+        },
+        "email": "mailto:adityasingh3499@gmail.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/aditya-singh-89b884189",
+          "https://github.com/Commanderadi"
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <!--
+      Static, hidden duplicate of the React contact form so Netlify's
+      build-time form detector can register it (it only scans built HTML,
+      not client-rendered React output).
+    -->
+    <form name="contact" data-netlify="true" hidden>
+      <input type="text" name="name" />
+      <input type="text" name="contact" />
+      <textarea name="message"></textarea>
+    </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

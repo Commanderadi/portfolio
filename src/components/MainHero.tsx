@@ -1,9 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const GITHUB = 'https://github.com/Commanderadi';
 const LINKEDIN = 'https://www.linkedin.com/in/aditya-singh-89b884189/';
 const AVATAR = 'https://avatars.githubusercontent.com/u/92989828?v=4';
+const RESUME = '/resume.pdf';
 
 export function MainHero() {
   return (
@@ -27,6 +29,9 @@ export function MainHero() {
             AI / ML · Gen AI · Agentic AI — research pipelines, LLM tools, RAG &amp; production-facing
             intelligence.
           </p>
+          <a href={RESUME} download className="hero-resume-btn">
+            <FontAwesomeIcon icon={faDownload} /> Download Resume
+          </a>
           <div className="social-mobile">
             <a href={GITHUB} target="_blank" rel="noreferrer" aria-label="GitHub">
               <FontAwesomeIcon icon={faGithub} />

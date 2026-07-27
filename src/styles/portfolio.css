@@ -1,6 +1,5 @@
 /* Portfolio styles aligned with yujisatojr/react-portfolio-template */
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap');
+/* Fonts are loaded via <link> in index.html (non-blocking) rather than @import here. */
 
 *,
 *::before,
@@ -235,6 +234,25 @@ a {
   max-width: 36rem;
   line-height: 1.45;
   opacity: 0.88;
+}
+
+.hero-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1.75rem;
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: #5000ca;
+  color: #fff !important;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid #5000ca;
+}
+
+.hero-resume-btn:hover {
+  background-color: transparent;
+  color: #5000ca !important;
 }
 
 .yuji-about .yuji-content h1 {
@@ -829,6 +847,19 @@ a {
 .contact-form .send-btn:hover {
   background-color: #5000ca;
   color: #fff;
+}
+
+.contact-form .send-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.contact-success {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  color: #6de08e;
 }
 
 /* ——— Footer ——— */
