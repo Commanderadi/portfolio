@@ -23,6 +23,37 @@ a {
   text-decoration: none;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@keyframes float-avatar {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(80, 0, 202, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgba(80, 0, 202, 0);
+  }
+}
+
 .main-container {
   position: relative;
   background-color: #0d1116;
@@ -70,7 +101,42 @@ a {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
 }
 
-.yuji-nav button {
+.yuji-nav-links button {
+  position: relative;
+  font-size: 1.1rem;
+  font-family: 'Lato', sans-serif;
+  text-transform: none;
+  padding: 6px 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+  transition: color 0.2s ease;
+}
+
+.yuji-nav-links button::after {
+  content: '';
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 0;
+  height: 2px;
+  background: #5000ca;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s ease;
+}
+
+.yuji-nav-links button:hover {
+  color: #5000ca;
+}
+
+.yuji-nav-links button:hover::after {
+  transform: scaleX(1);
+}
+
+.yuji-menu-btn,
+.yuji-icon-btn {
   font-size: 1.1rem;
   font-family: 'Lato', sans-serif;
   text-transform: none;
@@ -259,6 +325,13 @@ a {
   font-size: 5em;
   margin: 0;
   line-height: 1.05;
+}
+
+.yuji-about .image-wrap {
+  border-radius: 50%;
+  animation:
+    float-avatar 5s ease-in-out infinite,
+    glow-pulse 2.8s ease-in-out infinite;
 }
 
 .yuji-about .image-wrap img {
