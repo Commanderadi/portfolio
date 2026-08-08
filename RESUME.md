@@ -36,9 +36,6 @@ Noida, India · **June 2021 – June 2025**
 - Power BI dashboards with **15+ KPIs**; integrated **hosted LLM / generative APIs** for automated reporting (**~60%** faster reporting cycle).  
 - Python **web scraping** pipelines feeding dashboards; **~40%** reduction in manual data collection.
 
-**Suvidha Foundation (Suvidha Mahila Mandal)** — *Machine Learning Intern* · Mumbai · Remote · **Aug 2025 – Sep 2025**  
-- Applied ML workflows: data prep, experimentation, and evaluation supporting foundation programs; **multimodal prompting** and model iteration.
-
 **Unified Mentor Private Limited** — *Data Science Intern* · Gurugram · Hybrid · **Jul 2024 – Sep 2024**  
 - Data science tasks in **Python, R, SQL, JavaScript**: analysis, visualization, starter ML flows; mentor-led delivery and documentation.
 

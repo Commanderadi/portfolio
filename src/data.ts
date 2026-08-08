@@ -16,9 +16,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'FOAP — Field Officer Platform',
+    title: 'FieldPulse — Field Sales Force Automation',
     description:
-      '3-tier SaaS (NestJS + React + Flutter) for field sales ops: real-time GPS tracking, offline-first clock-in/out with odometer photo OCR, visit & quotation management, live admin map, distributor portal. Web dashboard live; Android app in closed testing on Google Play.',
+      'Field sales force automation platform built end-to-end as the sole engineer — Flutter mobile app, NestJS/PostgreSQL backend (20 domain modules, ~173 REST endpoints, 26 entities via TypeORM), and a React 19 admin dashboard. GPS-verified visit check-in/out with a background location tracker and EXIF/OCR-verified odometer capture, quotation-to-invoice flows, and a scheduled fraud-detection pipeline (mock-GPS, impossible-speed, idle-time) surfaced on a Socket.IO live map. Self-hosted production infra on Hetzner (Docker, Redis, nginx, Let’s Encrypt, Cloudflare R2) with 4 GitHub Actions pipelines for automated deploys and signed Android builds. Built for K.N. Elettro Industries, then spun out as fieldpulse.in as SaaS for other Indian distributors. Flutter app: v2.7.1, 16 releases, 29 screens, live on Google Play (closed testing).',
     tags: [
       'NestJS',
       'React',
@@ -33,28 +33,37 @@ export const projects: Project[] = [
     link: null,
   },
   {
-    title: 'ELETTRO Intelligence',
+    title: 'ELETTRO Intelligence Platform',
     description:
-      'Sales intelligence platform (Next.js + FastAPI + Supabase) built for an Indian manufacturer: GST-aware analytics, customer segmentation, churn prediction, AI chatbot, PDF reports. 26K+ real sales records, ₹29.65 Cr revenue tracked.',
-    tags: ['Next.js', 'FastAPI', 'Supabase', 'PostgreSQL', 'Leaflet', 'AI/ML'],
+      'Full-stack, multi-tenant sales analytics platform for KN Elettro Industries, solo-architected end to end (40+ REST endpoints, ~11K lines). Next.js 16 + FastAPI + hand-written SQLAlchemy Core on Neon Postgres. Excel/CSV ingestion with automated geo-enrichment, RFM customer segmentation and risk scoring, an interactive India choropleth, Pareto/ABC product analytics, dynamic fiscal-year-aware PDF reporting, and an AI chatbot over the sales data. Root-caused and fixed a silent data-integrity bug in customer-matching, backfilling 1,200+ production rows.',
+    tags: [
+      'Next.js',
+      'FastAPI',
+      'SQLAlchemy',
+      'PostgreSQL (Neon)',
+      'Leaflet',
+      'Recharts',
+      'JWT',
+      'AI/ML',
+    ],
     category: 'production',
-    link: 'https://elettrointelligence.streamlit.app/',
+    link: null,
   },
   {
     title: 'QuantumTrade Pro',
     description:
-      'Financial intelligence UI with Indian & global markets, portfolio risk, API-backed market data (CoinGecko, Alpha Vantage). React + Node/Express + MySQL.',
+      'Financial intelligence platform for Indian & global markets: live NIFTY 50/SENSEX and NSE/BSE data, Indian crypto (WazirX, CoinDCX), portfolio tracking and risk scoring, AI-generated trading signals, sentiment analysis, and natural-language market queries. React frontend, Node/Express + MySQL backend with JWT/bcrypt auth, CoinGecko and Alpha Vantage market data.',
     tags: ['React', 'Node.js', 'Express', 'MySQL', 'JWT', 'REST'],
     category: 'fullstack',
     link: 'https://github.com/Commanderadi/quantumtrade-pro',
   },
   {
-    title: 'Sahay — Community Health',
+    title: 'Sahay — Community Health Clinic Management',
     description:
-      'MERN app for NGO clinic operations: JWT, RBAC, clinic search, hardening (Helmet, rate limits). Deployed on Netlify.',
+      'MERN app for managing community health clinics: JWT-based auth with 3 role-based access levels (NGO, Admin, Visitor), clinic CRUD with name/city search, and a 7-endpoint REST API for auth and clinic management. Hardened with bcrypt password hashing, Helmet security headers, rate limiting, and CORS/input validation.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Tailwind'],
     category: 'fullstack',
-    link: 'https://sahaycommunity.netlify.app/',
+    link: 'https://github.com/Commanderadi/Sahay-Community-Health',
   },
   {
     title: 'AI Portfolio Platform',
@@ -91,8 +100,8 @@ export const projects: Project[] = [
   {
     title: 'Autonomous Research Agent',
     description:
-      'Pipeline: collect → spaCy NER → HF T5 summary → Gradio; scheduling & notifications.',
-    tags: ['Python', 'spaCy', 'HuggingFace', 'Gradio'],
+      'AI research assistant with an end-to-end agentic pipeline: scrapes article URLs (newspaper3k), cleans and preprocesses text (spaCy — stopword removal, lemmatization, NER, keyword extraction), then runs abstractive/extractive summarization with a Hugging Face T5 model and configurable compression, processing each article in ~10-30 seconds. Batch processing with result caching, daily-scheduled automation (APScheduler) with email/webhook notifications, and a Gradio UI. Deployed on Hugging Face Spaces.',
+    tags: ['Python', 'spaCy', 'HuggingFace', 'Gradio', 'newspaper3k', 'APScheduler'],
     category: 'ai',
     link: 'https://github.com/Commanderadi/autonomous_research_agent',
   },
@@ -173,9 +182,9 @@ export const career: CareerItem[] = [
     location: 'Mumbai, Maharashtra, India · On-site',
     title: 'Analytics Engineer (Data & Automation)',
     description:
-      'Design and develop internal data platforms and automation that turn operational and sales data into structured intelligence. Build scalable data pipelines, analytics frameworks, and operational tools that improve reporting accuracy, visibility, and efficiency. Partner with management and ops to replace manual Excel-heavy workflows with centralized data infrastructure and analytics dashboards. Ship LLM-backed features on the Intelligence Portal using hosted, multi-provider model APIs—structured outputs, retrieval / RAG patterns, tool-style steps, and evaluation-minded review for sensitive signals. Apply production-style API design: contracts, retries, idempotent async handlers, secrets hygiene, and structured logging. Key deliverables include the Intelligence Portal and FOAP app & portal ecosystem.',
+      'Design and develop internal data platforms and automation that turn operational and sales data into structured intelligence. Build scalable data pipelines, analytics frameworks, and operational tools that improve reporting accuracy, visibility, and efficiency. Partner with management and ops to replace manual Excel-heavy workflows with centralized data infrastructure and analytics dashboards. Ship LLM-backed features on the Intelligence Portal using hosted, multi-provider model APIs—structured outputs, retrieval / RAG patterns, tool-style steps, and evaluation-minded review for sensitive signals. Apply production-style API design: contracts, retries, idempotent async handlers, secrets hygiene, and structured logging. Key deliverables: the Intelligence Portal (40+ REST endpoints) and FieldPulse (formerly FOAP), a field sales platform with ~173 REST endpoints and 26 database entities, later spun out as fieldpulse.in.',
     stack:
-      'PostgreSQL · Data pipelines · Dashboards · FOAP & Intelligence Portal · NestJS · React · Flutter · FastAPI · Redis · Object storage · Hosted LLM APIs · Docker · CI/CD · TypeScript · RAG · LLM evaluation patterns',
+      'PostgreSQL · Data pipelines · Dashboards · FieldPulse & Intelligence Portal · NestJS · React · Flutter · FastAPI · Redis · Object storage · Hosted LLM APIs · Docker · CI/CD · TypeScript · RAG · LLM evaluation patterns',
   },
   {
     period: 'Jul 2025 — Dec 2025',
@@ -197,17 +206,6 @@ export const career: CareerItem[] = [
     description:
       'Built Power BI dashboards with 15+ KPIs; integrated hosted generative / LLM APIs for automated reporting (~60% faster reporting); developed Python web scraping pipelines (~40% time savings on data collection).',
     stack: 'Power BI · Python · Generative APIs · Web scraping · Business intelligence · DAX',
-  },
-  {
-    period: 'Aug 2025 — Sep 2025',
-    company: 'Suvidha Foundation (Suvidha Mahila Mandal)',
-    employmentType: 'Internship',
-    location: 'Mumbai, Maharashtra, India · Remote',
-    title: 'Machine Learning Intern',
-    description:
-      'Hands-on ML initiatives for the foundation’s programs: model experimentation, data preparation, and applied ML workflows supporting operational goals.',
-    stack:
-      'Machine learning · Python · Multimodal prompting · Data preprocessing · Model evaluation',
   },
   {
     period: 'Jul 2024 — Sep 2024',
@@ -288,7 +286,7 @@ export const expertise: ExpertiseBlock[] = [
   {
     title: 'Full-stack platforms & internal tools',
     body:
-      'I build internal portals and apps end-to-end—REST and real-time APIs, React/Next.js dashboards, Flutter for mobile field workflows, and services wired with Redis, queues, object storage, and multi-tenant-safe backends (e.g. Supabase/RLS patterns). Focus: clarity, durability, and fit for ops teams.',
+      'I build internal portals and apps end-to-end—REST and real-time APIs, React/Next.js dashboards, Flutter for mobile field workflows, and services wired with Redis, queues, object storage, and multi-tenant-safe, RLS-style backends. Comfortable self-hosting production infra (Docker, nginx, CI/CD) as well as managed platforms. Focus: clarity, durability, and fit for ops teams.',
     tech: [
       'NestJS',
       'FastAPI',
@@ -296,12 +294,12 @@ export const expertise: ExpertiseBlock[] = [
       'Next.js',
       'TypeScript',
       'Flutter',
+      'TypeORM / SQLAlchemy',
       'Redis',
       'Socket.IO',
-      'Supabase',
       'Docker',
-      'Object storage',
-      'CI/CD',
+      'GitHub Actions',
+      'Self-hosted infra',
     ],
   },
   {
