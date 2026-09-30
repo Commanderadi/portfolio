@@ -1,96 +1,92 @@
 # ADITYA SAMSHER SINGH
 
-**Mumbai, India** · **adityasingh3499@gmail.com**  
-[linkedin.com/in/aditya-singh-89b884189](https://www.linkedin.com/in/aditya-singh-89b884189) · [github.com/Commanderadi](https://github.com/Commanderadi)
+**Mumbai, India** · **[adityasingh3499@gmail.com](mailto:adityasingh3499@gmail.com)**  
+[linkedin.com/in/aditya-singh-89b884189](https://www.linkedin.com/in/aditya-singh-89b884189) · [github.com/Commanderadi](https://github.com/Commanderadi) · [commanderportfolio.netlify.app](https://commanderportfolio.netlify.app)
 
 ---
 
 ## Summary
 
-Analytics and full-stack engineer shipping **internal data platforms, BI, and production web/mobile tools**—PostgreSQL-first pipelines, NestJS/React/Next.js services, Flutter field apps, and applied **ML & generative AI** via **hosted LLM APIs** (structured outputs, retrieval, tool-style orchestration). Comfortable owning features from schema and API design through deployment (Redis, object storage, CI/CD) with **production-minded** reliability patterns.
-
----
-
-## Education
-
-**Galgotias University** — B.Tech, Computer Science · **CGPA: 7.6**  
-Noida, India · **June 2021 – June 2025**
+Analytics and full-stack engineer with experience building internal data platforms, BI tools, and production web and mobile applications. Comfortable owning a feature end to end, from database schema and API design through deployment. Recent work includes PostgreSQL-based data pipelines, NestJS/React/Next.js services, a Flutter mobile app, and applied AI using hosted LLM APIs.
 
 ---
 
 ## Experience
 
-**ELETTRO** — *Analytics Engineer (Data & Automation)* · Mumbai, India · Full-time · **Jan 2026 – Present**  
-- Build internal **data platforms, analytics frameworks, and automation** that replace Excel-heavy workflows with centralized reporting and operational visibility.  
-- Deliver **Intelligence Portal** and **FOAP** ecosystem: internal portals and field tooling aligned with management and ops.  
-- Ship **LLM-backed intelligence** using **vendor-neutral / multi-provider hosted model APIs**—**structured outputs**, prompt/version hygiene, **retrieval (RAG)** and tool-style steps where appropriate; pair model outputs with **evaluation** and human review for high-stakes signals.  
-- Apply **large-product-style** backend habits: clear **API contracts**, timeouts/retries and **idempotent** handlers for async work, **secrets** management, and **structured logging** so pipelines and AI features are debuggable in production.  
-- Stack: **PostgreSQL**, **Python**, pipelines & dashboards, **NestJS**, **React**, **Flutter**, **FastAPI**, **Redis**, cloud **object storage**, **TypeScript**, **Docker**, **CI/CD** pipelines for delivery.
+**Analytics Engineer (Data & Automation), ELETTRO** · Mumbai, India · Full-time · **Jan 2026 – Present**
+- Build internal data platforms and automation that replace Excel-based workflows with centralized reporting and dashboards.
+- Delivered the **Intelligence Portal** (40+ REST endpoints) and **FieldPulse** (formerly FOAP), a field sales platform with about **173 REST endpoints** and **26 database entities**. FieldPulse was later spun out as **[fieldpulse.in](https://fieldpulse.in)**.
+- Built LLM-backed features on the Intelligence Portal using hosted model APIs, including **structured outputs** and **retrieval-based search (RAG)**.
+- Designed backend APIs with retry logic, idempotent handlers for async work, and structured logging for production reliability.
+- Stack: PostgreSQL, Python, NestJS, React, Flutter, FastAPI, Redis, TypeScript, Docker, CI/CD.
 
-**Key's Concept** — *Analyst & Applied AI Engineer* · Mumbai Metropolitan Region · Part-time · **Jul 2025 – Dec 2025**  
-- Analyzed financial and tax-adjacent data (portfolios, ITR context, insurance) for **50+ clients**; surfaced optimization and planning insights.  
-- **Automated reporting** with Python and Excel; cut manual effort ~**40%** on recurring ITR and portfolio-tracking tasks.  
-- Built **internal analytics dashboards** for firm KPIs, retention, and service delivery; explored **GenAI** for documents, segmentation, and forecasting.
+**Analyst & Applied AI Engineer, Key's Concept** · Mumbai Metropolitan Region · Part-time · **Jul 2025 – Dec 2025**
+- Analyzed financial and tax data across client portfolios, including tax filings, investments, and insurance, for **50+ clients**.
+- Automated reporting with Python and Excel, cutting manual effort by about **40%** on recurring tax and portfolio-tracking tasks.
+- Built internal dashboards for firm KPIs and client metrics, and explored generative AI for document processing and forecasting.
 
-**Future Interns** — *Data Science & Analytics Intern* · Remote · **Sep 2025 – Oct 2025**  
-- Power BI dashboards with **15+ KPIs**; integrated **hosted LLM / generative APIs** for automated reporting (**~60%** faster reporting cycle).  
-- Python **web scraping** pipelines feeding dashboards; **~40%** reduction in manual data collection.
+**Data Science & Analytics Intern, Future Interns** · Remote · **Sep 2025 – Oct 2025**
+- Built Power BI dashboards with **15+ KPIs** and integrated LLM APIs for automated reporting, cutting reporting time by about **60%**.
+- Built Python web scraping pipelines that reduced manual data collection by about **40%**.
 
-**Unified Mentor Private Limited** — *Data Science Intern* · Gurugram · Hybrid · **Jul 2024 – Sep 2024**  
-- Data science tasks in **Python, R, SQL, JavaScript**: analysis, visualization, starter ML flows; mentor-led delivery and documentation.
+**Data Science Intern, Unified Mentor Private Limited** · Gurugram · Hybrid · **Jul 2024 – Sep 2024**
+- Worked on data analysis, visualization, and early machine learning tasks using Python, R, SQL, and JavaScript.
+- Collaborated with a mentor on data-driven prototypes and technical documentation.
 
-**Amazon Web Services (AWS)** — *AI / ML Intern* · Remote · **May 2023 – Jul 2023**  
-- Python and **TensorFlow** with **major-cloud** ML labs; ETL-style pipelines, model deployment patterns, and **REST** integration for ML services.  
-- Automated extraction of process-performance data across teams; improved reporting efficiency **~30%**.
+**AI / ML Intern, Amazon Web Services (AWS)** · Remote · **May 2023 – Jul 2023**
+- Worked with Python and TensorFlow on cloud-based ML labs, including ETL pipelines and model deployment patterns.
+- Automated extraction of process-performance data across teams, improving reporting efficiency by about **30%**.
 
-**Earlier roles**  
-- **READYCODER** — App Developer Intern (Java, Kotlin, Swift, **Flutter**). **Palo Alto Networks** — Cyber Security Intern (Wireshark, Nmap, Metasploit). **Entrepreneurship Cell, Galgotias University** — Technical Coordinator (events, hackathons, student tech programs).
-
----
-
-## Technical skills
-
-- **Languages:** Python, **TypeScript** / JavaScript, SQL, Java, C++, HTML/CSS  
-- **Data & BI:** PostgreSQL, MySQL, MongoDB, pandas, **Power BI**, DAX, ETL-style pipelines, web scraping, Excel automation  
-- **Backend & APIs:** **NestJS**, **FastAPI**, Node.js, Express, **REST**, **WebSockets** (Socket.IO)  
-- **Frontend & mobile:** React, **Next.js**, Flutter, Tailwind, Chart.js  
-- **ML / DL / NLP:** scikit-learn, XGBoost, TensorFlow, **transformers** / pretrained models, **LLM orchestration** (agent-style workflows), spaCy, NLTK, **CatBoost**, SHAP, OpenCV, classical & detector-style CV  
-- **Generative AI & LLMs:** **hosted LLM APIs** (REST), **structured outputs**, **function / tool calling**, **streaming** responses, **multi-provider** integrations, **RAG**, prompt templates and evaluation hooks  
-- **Tooling:** Gradio, Streamlit, Jupyter for prototyping; **HTTP/REST clients** / OpenAPI-style API testing  
-- **Cloud & DevOps:** **Docker**, **CI/CD** (build, test, deploy automation), object storage, serverless & data-warehouse exposure, **infrastructure-as-code** (familiarity), static / app hosting  
-- **Production & security practices:** Multi-tenant / **RLS** patterns, caching (**Redis**), auth (**JWT**, sessions), **least-privilege** access, **observability** (structured logs; dashboards and KPIs for pipelines), API **rate limits** / backpressure awareness, clear **design tradeoffs** in review
+**Earlier roles:** App Developer Intern at READYCODER (Java, Kotlin, Swift, Flutter) · Cyber Security Intern at Palo Alto Networks (Wireshark, Nmap, Metasploit) · Technical Coordinator, Entrepreneurship Cell, Galgotias University.
 
 ---
 
-## Selected projects
+## Technical Skills
 
-**FOAP — Field Officer Platform** · *NestJS, React, Flutter, PostgreSQL, Redis, object storage, Socket.IO*  
-**3-tier SaaS** for field sales ops: real-time GPS tracking, **offline-first** mobile with odometer photo OCR, visit & quotation management, live admin map. Web dashboard live; Android app in closed testing on Google Play.
+- **Languages:** Python, TypeScript / JavaScript, SQL, Dart, Java, C++, HTML/CSS
+- **Backend & APIs:** NestJS, FastAPI, Node.js, Express, REST, WebSockets (Socket.IO), TypeORM, SQLAlchemy Core, JWT, bcrypt
+- **Frontend & Mobile:** React, Next.js, Flutter (Riverpod, Dio, go_router), Tailwind CSS, Radix UI, TanStack Query, Zustand, Recharts, Chart.js, Leaflet
+- **Data & BI:** PostgreSQL (including Neon), MySQL, MongoDB, pandas, Power BI, DAX, ETL pipelines, web scraping, Excel automation
+- **Machine Learning:** scikit-learn, XGBoost, TensorFlow, Transformers, spaCy, NLTK, CatBoost, SHAP, OpenCV
+- **Generative AI:** Hosted LLM APIs, structured outputs, function / tool calling, retrieval-augmented generation (RAG)
+- **Cloud & DevOps:** Docker, CI/CD (GitHub Actions), self-hosted infrastructure (Hetzner, nginx, Let's Encrypt), Cloudflare R2, Redis, Firebase, Sentry
+- **Security & Production:** Multi-tenant / row-level security patterns, role-based access control, rate limiting, least-privilege access
 
-**ELETTRO Intelligence** · *Next.js, FastAPI, Supabase, PostgreSQL, Leaflet*  
-**Sales intelligence platform** built for an Indian manufacturer: GST-aware analytics, customer segmentation, churn prediction, AI chatbot, PDF reports. **26K+** real sales records, ₹29.65 Cr revenue tracked.
+---
 
-**Autonomous Research Agent** · *Python, LLM orchestration, transformer models, Gradio*  
-RAG-style research assistant: scrape → **NER** (spaCy) → summarization → **Gradio** UI; multi-step / agentic workflows; **500+** articles/week scale in internal testing.
+## Projects
 
-**Churn prediction** · *Python, scikit-learn, XGBoost, Flask*  
-End-to-end ML pipeline (7K+ records); ensemble models (**89%** accuracy, **0.85** F1); **Flask** API with preprocessing for retention use cases.
+**[FieldPulse](https://fieldpulse.in) – Field Sales Force Automation** · *NestJS, React, Flutter, PostgreSQL, Redis, Socket.IO, TypeORM*  
+Solo-built field sales automation platform for a manufacturing company: a NestJS/PostgreSQL backend (about 173 REST endpoints, 26 database entities), a Flutter mobile app with GPS-verified visit check-in and photo-verified odometer capture, and a React admin dashboard with a live fraud-detection map. Self-hosted on Hetzner with automated CI/CD. Later spun out as fieldpulse.in, a SaaS product for other distributors.
 
-**E-commerce sales forecasting** · *Python, Prophet, LSTM, TensorFlow, Flask*  
-Time series on **50K+** transactions; compared Prophet, ARIMA, LSTM (**~92%** accuracy, **8.3%** MAPE); Flask API for **30-day** horizon forecasts.
+**ELETTRO Intelligence Platform** · *Next.js, FastAPI, SQLAlchemy, PostgreSQL (Neon), Leaflet, Recharts*  
+Solo-built, multi-tenant sales analytics platform for KN Elettro Industries (40+ REST endpoints, about 11,000 lines of code). Handles Excel/CSV data ingestion with automated geo-enrichment, RFM customer segmentation, an interactive map of India, product analytics, automated PDF reporting, and an AI chatbot for querying sales data.
 
-*Additional repos:* crypto dashboard (React, TypeScript, CatBoost), MERN health platform (JWT, RBAC), Power BI campaign & e-commerce dashboards—see profile links above.
+**[Autonomous Research Agent](https://github.com/Commanderadi/autonomous_research_agent)** · *Python, spaCy, HuggingFace, Gradio, newspaper3k, APScheduler*  
+AI research assistant that scrapes articles, cleans and processes the text with spaCy, and summarizes it with a Hugging Face T5 model in about 10–30 seconds per article. Includes scheduled automation with email/webhook notifications and a Gradio interface, deployed on Hugging Face Spaces.
+
+**[QuantumTrade Pro](https://github.com/Commanderadi/quantumtrade-pro)** · *React, Node.js, Express, MySQL, JWT, REST*  
+Financial intelligence platform covering Indian and global markets: live NIFTY 50/SENSEX and NSE/BSE data, Indian crypto exchanges (WazirX, CoinDCX), portfolio tracking, AI-generated trading signals, and natural-language market queries.
+
+**[Sahay – Community Health Clinic Management](https://github.com/Commanderadi/Sahay-Community-Health)** · *React, Node.js, Express, MongoDB, JWT, Tailwind*  
+MERN app for managing community health clinics, with role-based access for NGOs, admins, and visitors, clinic search by name and city, and a 7-endpoint REST API secured with JWT, bcrypt, and rate limiting.
+
+---
+
+## Education
+
+**B.Tech, Computer Science, Galgotias University** · CGPA: 7.6 · Noida, India · **Jun 2021 – Jun 2025**
 
 ---
 
 ## Certifications
 
-- Machine Learning Applications — Altair  
-- AI/ML Foundations — AWS Academy  
-- Data Science & Analytics Virtual Internship — Future Interns  
-- System Administration — Red Hat  
-- App Development Internship — Ready Coder  
+- Machine Learning Applications – Altair
+- AI/ML Foundations – AWS Academy
+- Data Science & Analytics Virtual Internship – Future Interns
+- System Administration – Red Hat
+- App Development Internship – Ready Coder
 
 ---
 
-*Last updated: April 2026 — Export this document to PDF from your editor or Google Docs / Word for applications.*
+*A downloadable PDF version is available on my [portfolio](https://commanderportfolio.netlify.app).*
