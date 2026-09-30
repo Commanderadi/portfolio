@@ -1,6 +1,6 @@
 # ADITYA SAMSHER SINGH
 
-**Mumbai, India** · **+91 9322558989** · **adityasingh3499@gmail.com**  
+**Mumbai, India** · **adityasingh3499@gmail.com**  
 [linkedin.com/in/aditya-singh-89b884189](https://www.linkedin.com/in/aditya-singh-89b884189) · [github.com/Commanderadi](https://github.com/Commanderadi)
 
 ---
